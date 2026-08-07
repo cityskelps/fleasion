@@ -1,0 +1,819 @@
+{
+  "replacement_rules": [
+    {
+      "name": "map select -> hover click",
+      "replace_ids": [
+        103035811146294
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/mixkit-pebbles-click-1128.wav"
+    },
+    {
+      "name": "ding -> fps intro voice",
+      "replace_ids": [
+        8483887957
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/enter_fps.ogg"
+    },
+    {
+      "name": "intro theme -> silence",
+      "replace_ids": [
+        6384899588
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "lobby music -> silence",
+      "replace_ids": [
+        17697682466,
+        17733314783
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "heal sfx -> heal",
+      "replace_ids": [
+        17138490999
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/healnew.wav"
+    },
+    {
+      "name": "all heads -> headshot",
+      "replace_ids": [
+        16537337310,
+        16537449730
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/headoonyx_loud3.wav"
+    },
+    {
+      "name": "hitmarker -> hit",
+      "replace_ids": [
+        13110130082
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/hitonyx_loud.wav"
+    },
+    {
+      "name": "kill1 -> kill",
+      "replace_ids": [
+        16530229616
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/kill_voice.ogg"
+    },
+    {
+      "name": "kill2 -> kill",
+      "replace_ids": [
+        16530229541
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/kill_voice2.ogg"
+    },
+    {
+      "name": "kill3 -> kill",
+      "replace_ids": [
+        16530229695
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/kill_voice3.ogg"
+    },
+    {
+      "name": "rpg explosion -> boom",
+      "replace_ids": [
+        13455969017
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/bloxonyx.ogg"
+    },
+    {
+      "name": "countdown -> countdown",
+      "replace_ids": [
+        17826470563
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/countonyx.wav"
+    },
+    {
+      "name": "queue countdown -> countdown",
+      "replace_ids": [
+        17259538274
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/countonyx.wav"
+    },
+    {
+      "name": "SBK -> sky side",
+      "replace_ids": [
+        2108482005,
+        14147881792,
+        135908632589654,
+        84214501374682,
+        10196550937,
+        12261809766
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/sky512_bk.png"
+    },
+    {
+      "name": "SDN -> sky down",
+      "replace_ids": [
+        2108545280,
+        10196550667,
+        14147882149,
+        103020541883227,
+        89972436184102,
+        12261813110
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/sky512_dn.png"
+    },
+    {
+      "name": "SLF -> sky side",
+      "replace_ids": [
+        14147883091,
+        135908632589654,
+        84214501374682,
+        2108482395,
+        12261809766,
+        10196550128
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/sky512_lf.png"
+    },
+    {
+      "name": "SRT -> sky side",
+      "replace_ids": [
+        14147882405,
+        135908632589654,
+        84214501374682,
+        2108482542,
+        12261809766,
+        10196549902
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/sky512_rt.png"
+    },
+    {
+      "name": "SFT -> sky side",
+      "replace_ids": [
+        14147882761,
+        12261809766,
+        135908632589654,
+        84214501374682,
+        10196550367,
+        2108482231
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/sky512_ft.png"
+    },
+    {
+      "name": "SUP -> sky up",
+      "replace_ids": [
+        14147881297,
+        72960281658487,
+        92138082970751,
+        2108482676,
+        10196567794,
+        12261813678
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/sky512_up.png"
+    },
+    {
+      "name": "arena -> invisible",
+      "replace_ids": [
+        7658055825
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "remove ambience on maps",
+      "replace_ids": [
+        17813065011,
+        17813065464,
+        12099785239
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "remove the n",
+      "replace_ids": [
+        13854780042
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "remove map pattern",
+      "replace_ids": [
+        136887158756561
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "grenade bolts -> invisible",
+      "replace_ids": [
+        14246425725
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "grenade rings -> invisible",
+      "replace_ids": [
+        14246425399
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "vfx remove batch 1",
+      "replace_ids": [
+        109543449111855,
+        14035694679,
+        13543560548,
+        11906967471,
+        9026948517,
+        16937426755,
+        187926731,
+        16830673704,
+        17177109207,
+        16862159131,
+        16728762748,
+        1285232,
+        9933645838,
+        14503501201,
+        14608865171,
+        102648809593259,
+        17573147187,
+        12823974848,
+        13852843634,
+        7673945506
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "vfx remove batch 2",
+      "replace_ids": [
+        11834332063,
+        16072591407,
+        13576015697,
+        18451206189,
+        18451228296,
+        18357583854,
+        16885732740,
+        2590541,
+        18445890274,
+        9481249945,
+        11923849665,
+        12711079448,
+        102283967584358,
+        15439244719,
+        72393178224314,
+        89210639622638,
+        77049671345769,
+        76853894340797,
+        17160801983,
+        17098901515
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "vfx remove batch 3",
+      "replace_ids": [
+        16833617681,
+        17098901439,
+        14453543476,
+        88100350961714,
+        94462034112354,
+        12766320581,
+        13221391758,
+        18451251817,
+        116342912165547,
+        119752933176540,
+        1053546634,
+        115211623181349,
+        4433607239,
+        16934145925,
+        18451479566,
+        11996120296,
+        17891076810,
+        14128173952,
+        15142124109,
+        137239711290807
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "vfx remove batch 4",
+      "replace_ids": [
+        16834748022,
+        242255193,
+        16250461446,
+        14796588510,
+        128064420233666,
+        17177274634,
+        98231967024816,
+        15370110942,
+        13272936705,
+        16812355446,
+        17303186090,
+        17554583359,
+        16160518166,
+        10002331595,
+        126755626660166,
+        14547796436,
+        121836281703640,
+        96903836235262,
+        116117297103465,
+        17160799767
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "vfx remove batch 5",
+      "replace_ids": [
+        17104361518,
+        13529584898,
+        85980908687246,
+        74222168805989,
+        77802568386086,
+        11866744589,
+        16885731790,
+        14200193712,
+        14452737302,
+        133157637944819,
+        15824572632,
+        17367431683,
+        92737408346020,
+        97194743675901,
+        98970040453578,
+        13482243466,
+        81440970309830,
+        78517330608597,
+        9776298660,
+        135901192278617
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "vfx remove batch 6",
+      "replace_ids": [
+        81928838894477,
+        113028835854175,
+        94130958046410,
+        90982300946202,
+        134164143343697,
+        133761836295156,
+        110687829716426,
+        99819099569163,
+        18521872896,
+        13953624394
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "ambience sounds -> remove",
+      "replace_ids": [
+        93752516938586,
+        16359327230,
+        13645858587,
+        17813170797,
+        17251084003,
+        123807468675018,
+        96651118435847,
+        75644699023746,
+        71681149544292,
+        93843878451088,
+        108905869931161,
+        94857514154727
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "portal ambience -> ping",
+      "replace_ids": [
+        114274252176516
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://raw.githubusercontent.com/66buncer/ASMR-FPS-Redux/main/portal_pop_double.wav"
+    },
+    {
+      "name": "ui backgrounds -> remove",
+      "replace_ids": [
+        14061881951,
+        107726936944155,
+        13970862697,
+        17277885692,
+        17899937515,
+        17899937279,
+        17899937066,
+        17899937163,
+        121633287203693,
+        8369869661,
+        17277885619,
+        13970862959,
+        13220167337,
+        13188242420,
+        13220167472,
+        13188153054,
+        13188242287
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "no textures",
+      "replace_ids": [
+        24108148,
+        1858069131,
+        2045471763,
+        4634384903,
+        6372755229,
+        9920484153,
+        10055526642,
+        10237720195,
+        10312359831,
+        10372251207,
+        11454212345,
+        11454576739,
+        11477602857,
+        11481072646,
+        12257815938,
+        13926595956,
+        14003050924,
+        14220695494,
+        14580701813,
+        14632162943,
+        14632191598,
+        15394335373,
+        16885732418,
+        17549641791,
+        17848929675,
+        17878306151,
+        18226913133,
+        18341247839,
+        18341252690,
+        18954440250,
+        71741777608333,
+        72053439603126,
+        72276719291683,
+        72753856840825,
+        72960281658487,
+        73151089176577,
+        74719795622292,
+        77116507932621,
+        77280333979830,
+        77336612774331,
+        78327502426950,
+        78768132861655,
+        79005606703229,
+        79037432346037,
+        79565853810157,
+        79631379182336,
+        79768894432441,
+        80590591696455,
+        80774719974059,
+        80886738227339,
+        80915278627693,
+        80955953120740,
+        81208695519665,
+        81611162308620,
+        81642366414902,
+        81693423238367,
+        82237768053790,
+        83407810230880,
+        83638886198746,
+        83839927036695,
+        83884178210991,
+        84814005764983,
+        84978477725458,
+        85422435934136,
+        85617933102916,
+        86281020230014,
+        87332003399742,
+        87971497289183,
+        88413542905305,
+        88927716299506,
+        89745235079273,
+        90033041009085,
+        90179282534399,
+        90659681211955,
+        91814654960140,
+        92099638459261,
+        92826467018506,
+        92965690658072,
+        93201601445232,
+        95590378350770,
+        95627464661160,
+        95702748739103,
+        96422772314925,
+        97472370579636,
+        97570399922859,
+        98096261719363,
+        98259358275652,
+        99056421514811,
+        100443859354766,
+        101121404858270,
+        101412855436955,
+        102093489933209,
+        102195387914801,
+        103020541883227,
+        104069270158269,
+        104397847902544,
+        104815136324261,
+        104991586616989,
+        105046897710181,
+        105936796441664,
+        106898120945134,
+        107031875566042,
+        107080975087735,
+        107339888652888,
+        107693403199056,
+        109532463722517,
+        109555757686449,
+        109995771342047,
+        110453816515564,
+        111104773104049,
+        111572493457361,
+        111609564827950,
+        111953943845562,
+        112003394538734,
+        112636860018786,
+        113384402304122,
+        113418617796702,
+        113526183622986,
+        113733074854405,
+        113854130807451,
+        114467204454198,
+        114690180887456,
+        114930686452917,
+        115486665139898,
+        116399912465134,
+        116492546588515,
+        117026183628444,
+        117211153235422,
+        118898377115379,
+        119623285970391,
+        120384271860797,
+        120412644793902,
+        120697557002175,
+        120989415298893,
+        121183545336837,
+        121539610554225,
+        122443872970709,
+        122713747523308,
+        124560387406160,
+        125017852798308,
+        125454368722317,
+        125624691916024,
+        125769120647437,
+        126127146948771,
+        126747285189934,
+        126856837060262,
+        127262777923020,
+        127921011937186,
+        128090144224329,
+        128794400839373,
+        129052025858485,
+        129493590005799,
+        129654447897318,
+        129920459539056,
+        130130820236319,
+        130832703001366,
+        130988842567634,
+        131101052595213,
+        131112834905608,
+        131169173950668,
+        133044483242066,
+        134427107714861,
+        134525651770192,
+        135270565327831,
+        135847479909314,
+        135908632589654,
+        136293268881985,
+        136360223978244,
+        136529936726825,
+        137454124114299,
+        137681407515904,
+        138131773990472,
+        138300995971045,
+        138719411464330,
+        138790218172606,
+        138809367537938,
+        140025808810111,
+        140029191112928,
+        140500942535296,
+        99205746879920520000
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "headshot spark removal",
+      "replace_ids": [
+        15109829804
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "ainmation loop deleted/replaced with one that has no leg movement",
+      "replace_ids": [
+        180435792
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 180435571
+    },
+    {
+      "name": "headless over vampire",
+      "replace_ids": [
+        90470564859239
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 134079402
+    },
+    {
+      "name": "texture for headless over vampire",
+      "replace_ids": [
+        80710174110648
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 133940918
+    },
+    {
+      "name": "blossoming giftbox to coffin from 2011 halloween giftbox event",
+      "replace_ids": [
+        102602756438868
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 62737759
+    },
+    {
+      "name": "blossoming giftbox texture to coffin from 2011 halloween giftbox event",
+      "replace_ids": [
+        111538401667987
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 62737909
+    },
+    {
+      "name": "r15 headless over vampire",
+      "replace_ids": [
+        134633144649439
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 134079402
+    },
+    {
+      "name": "everything upgrade tree remram skybox up",
+      "replace_ids": [
+        150335642
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/skyboxes/RemRam/sky512_up.png"
+    },
+    {
+      "name": "everything upgrade tree remram skybox right",
+      "replace_ids": [
+        150335628
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/skyboxes/RemRam/sky512_lf.png"
+    },
+    {
+      "name": "everything upgrade tree remram skybox left",
+      "replace_ids": [
+        150335620
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/skyboxes/RemRam/sky512_bk.png"
+    },
+    {
+      "name": "everything upgrade tree remram skybox front",
+      "replace_ids": [
+        150335610
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/skyboxes/RemRam/sky512_ft.png"
+    },
+    {
+      "name": "everything upgrade tree remram skybox down",
+      "replace_ids": [
+        150335585
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/skyboxes/RemRam/sky512_dn.png"
+    },
+    {
+      "name": "everything upgrade tree remram skybox back",
+      "replace_ids": [
+        150335574
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/skyboxes/RemRam/sky512_rt.png"
+    },
+    {
+      "name": "<3 TBD Textures <3",
+      "replace_ids": [
+        7546653951,
+        7547303225
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://github.com/minaluvsyu/Fleasion-stuff/blob/main/TBD%20Stuff/Textures/Ground%20and%20wall.png?raw=true"
+    },
+    {
+      "name": "<3 TBD Bomb Texture Replace <3",
+      "replace_ids": [
+        12222348
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://github.com/minaluvsyu/Fleasion-stuff/blob/main/TBD%20Stuff/Textures/Bomb%20texture.png?raw=true"
+    },
+    {
+      "name": "<3 TBD Bomb Replace <3",
+      "replace_ids": [
+        12221733
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://github.com/minaluvsyu/Fleasion-stuff/raw/refs/heads/main/TBD%20Stuff/Models/Untitled8.obj"
+    },
+    {
+      "name": "<3 TBD Bomb Image Replace <3",
+      "replace_ids": [
+        126288617538359
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://github.com/minaluvsyu/Fleasion-stuff/blob/main/TBD%20Stuff/Textures/Preview.png?raw=true"
+    },
+    {
+      "name": "<3 TBD Bomb Explode <3",
+      "replace_ids": [
+        87015121,
+        161034752,
+        13109132253
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://github.com/minaluvsyu/Fleasion-stuff/raw/refs/heads/main/MM2%20Stuff/Sounds/V2/Role%20select.mp3"
+    },
+    {
+      "name": "<3 TBD Bomb Ticking",
+      "replace_ids": [
+        13109132320
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/freesound_community-tick-tock-95555.mp3"
+    }
+  ]
+}
