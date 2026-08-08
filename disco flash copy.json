@@ -1,0 +1,42 @@
+{
+  "replacement_rules": [
+    {
+      "name": "normal model",
+      "replace_ids": [
+        14515276950
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/discoattempt2.obj"
+    },
+    {
+      "name": "remove",
+      "replace_ids": [
+        14515277075,
+        15001981484,
+        14515277013,
+        14515276900
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "icon",
+      "replace_ids": [
+        17160801529
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 17672061796
+    },
+    {
+      "name": "flash sound",
+      "replace_ids": [
+        14522189766
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 105347278918241
+    }
+  ]
+}
