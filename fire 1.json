@@ -1,0 +1,124 @@
+{
+  "replacement_rules": [
+    {
+      "name": "tuff ahh wrap bruh",
+      "replace_ids": [
+        124796745676624
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/1349599-Luigi-MarioSuper-Mario-Bros.-HD-Wallpaper.jpg"
+    },
+    {
+      "name": "Profile 2",
+      "replace_ids": [
+        16802957270
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/OIP__6_-removebg-preview.png"
+    },
+    {
+      "name": "Profile 3",
+      "replace_ids": [
+        13220167337,
+        13188242420,
+        13220167472,
+        13188153054,
+        13188242287
+      ],
+      "mode": "id",
+      "enabled": true
+    },
+    {
+      "name": "Profile 4",
+      "replace_ids": [
+        109002557953309
+      ],
+      "mode": "id",
+      "enabled": true,
+      "with_id": 104184203029073
+    },
+    {
+      "name": "Profile 5",
+      "replace_ids": [
+        81461991645938
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/OIP__7_-removebg-preview.png"
+    },
+    {
+      "name": "Profile 6",
+      "replace_ids": [
+        16770456156,
+        16492958314
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/maro-jump-sound-effect_1.mp3"
+    },
+    {
+      "name": "Profile 7",
+      "replace_ids": [
+        17138490999
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/super-mario-bros_b87NL6J.mp3"
+    },
+    {
+      "name": "Profile 8",
+      "replace_ids": [
+        2108482005,
+        14147881792,
+        135908632589654,
+        84214501374682,
+        10196550937,
+        12261809766,
+        2108545280,
+        10196550667,
+        14147882149,
+        103020541883227,
+        89972436184102,
+        12261813110,
+        14147882761,
+        12261809766,
+        135908632589654,
+        84214501374682,
+        10196550367,
+        2108482231,
+        14147883091,
+        135908632589654,
+        84214501374682,
+        2108482395,
+        12261809766,
+        10196550128,
+        14147882405,
+        135908632589654,
+        84214501374682,
+        2108482542,
+        12261809766,
+        10196549902,
+        14147881297,
+        72960281658487,
+        92138082970751,
+        2108482676,
+        10196567794,
+        12261813678
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/1349599-Luigi-MarioSuper-Mario-Bros.-HD-Wallpaper.jpg"
+    },
+    {
+      "name": "Profile 9",
+      "replace_ids": [
+        7658055825
+      ],
+      "mode": "local",
+      "enabled": true,
+      "local_path": "C:/Users/Larry/Downloads/OIP__7_-removebg-preview.png"
+    }
+  ]
+}
